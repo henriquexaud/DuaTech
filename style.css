@@ -133,7 +133,7 @@ main #about {
     justify-content: flex-end;
     padding-left: 50px;
     padding-top: 150px;
-    height: 1450px;
+    height: fit-content;
 }
 
 main #about #about-container {
@@ -179,6 +179,7 @@ main #about #workflow-container {
     margin-top: 80px;
     align-items: center;
     justify-content: center;
+    height: fit-content;
 }
 
 main #about #workflow-container img {
@@ -186,6 +187,12 @@ main #about #workflow-container img {
     position: relative;
     right: 150px;
     bottom: 405px;
+}
+
+main #about #workflow-container video {
+    position: relative;
+    bottom: 360px;
+    left: 180px;
 }
 
 main #about #workflow-container h3 {
@@ -198,7 +205,7 @@ main #about #workflow-container #steps {
     margin-top: 70px;
     position: relative;
     width: fit-content;
-    padding-left: 200px;
+    padding-left: 160px;
 }
 
 main #about #workflow-container #steps #step1, #step2, #step3 {
@@ -283,6 +290,29 @@ main #portfolio ul #myPlants {
 main #portfolio ul #nirvanaExperience {
     text-align: left;
     padding-right: 50%;
+}
+
+main #last-call {
+    background-color: #90e0ef;
+}
+
+main #last-call button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #FD951F;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+main #last-call button:hover {
+    cursor: pointer;
+    background-color: #db7909;
 }
 
 footer {
