@@ -122,11 +122,11 @@
         padding-right: 400px;
     }
     
-    main #welcome {
+    #welcome {
         padding-right: 400px;
     }
     
-    main #about {
+    #about {
         padding-left: 400px;
     }
 
@@ -135,11 +135,11 @@
         height: 300px;
     }
     
-    main #portfolio ul #pousadaPlato, #nirvanaExperience {
+    #portfolio ul #pousadaPlato, #nirvanaExperience {
         padding-left: 400px;
     }
     
-    main #portfolio ul #myPlants {
+    #portfolio ul #myPlants {
         padding-right: 400px;
     }
 

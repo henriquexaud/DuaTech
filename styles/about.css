@@ -34,7 +34,7 @@ main #about p {
 .about-image {
     height: 100%;
     width: 100%;
-    background-image: url('/public/images/developing.jpg');
+    background-image: url('/public/images/development-set.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     transition: all .5s;
@@ -43,7 +43,7 @@ main #about p {
 
 .cover:hover .about-image,
 .cover:focus .about-image {
-  transform: scale(1.2);
+  transform: scale(1.8);
   transition: all .5s;
 }
 

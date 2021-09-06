@@ -1,0 +1,32 @@
+
+#portfolio {
+    height: 900px;
+    background-color: #90e0ef;
+    visibility: hidden;
+}
+
+#portfolio h2 {
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+}
+
+#portfolio ul li {
+    margin-top: 20px;
+    list-style-type: none;
+    margin-bottom: 80px;
+}
+
+#portfolio ul #pousadaPlato {
+    text-align: left;
+    padding-right: 50%;
+}
+
+#portfolio ul #myPlants {
+    text-align: right;
+    padding-left: 50%;
+}
+
+#portfolio ul #nirvanaExperience {
+    text-align: left;
+    padding-right: 50%;
+}
