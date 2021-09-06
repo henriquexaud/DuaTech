@@ -1,0 +1,43 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #90e0ef;
+    padding: 20px;
+}
+
+header div strong {
+    margin-left: 5px;
+    position: relative;
+    bottom: 5px;
+    font-size: 18px;
+}
+
+header div {
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    font-weight: 400;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}

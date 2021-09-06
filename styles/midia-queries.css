@@ -1,0 +1,146 @@
+/* Tela zero */
+@media screen and (min-width: 600px) {
+
+    header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    main #welcome {
+        padding-right: 50px;
+    }
+    
+    main #about {
+        padding-left: 50px;
+    }
+
+    main #portfolio ul #pousadaPlato, #nirvanaExperience {
+        padding-left: 50px;
+    }
+    
+    main #portfolio ul #myPlants {
+        padding-right: 50px;
+    }
+}
+    
+
+/* Primeira tela */
+@media screen and (min-width: 768px) {
+
+    header {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    main #welcome {
+        padding-right: 100px;
+    }
+
+    main #about {
+        padding-left: 100px;
+    }
+
+    .cover {
+        width: 420px;
+        height: 240px;
+    }
+
+    main #portfolio ul #pousadaPlato, #nirvanaExperience {
+        padding-left: 100px;
+    }
+
+    main #portfolio ul #myPlants {
+        padding-right: 100px;
+    }
+}
+
+/* Segunda tela */
+@media screen and (min-width: 1000px) {
+
+    header {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+    main #welcome {
+        padding-right: 200px;
+    }
+    
+    main #about {
+        padding-left: 200px;
+    }
+
+    .cover {
+        width: 455px;
+        height: 260px;
+    }
+    
+    main #portfolio ul #pousadaPlato, #nirvanaExperience {
+        padding-left: 200px;
+    }
+    
+    main #portfolio ul #myPlants {
+        padding-right: 200px;
+    }
+}
+
+/* Terceira tela */
+@media screen and (min-width: 1200px) {
+    
+    header {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    
+    main #welcome {
+        padding-right: 300px;
+    }
+    
+    main #about {
+        padding-left: 300px;
+    }
+
+    .cover {
+        width: 490px;
+        height: 280px;
+    }
+    
+    main #portfolio ul #pousadaPlato, #nirvanaExperience {
+        padding-left: 300px;
+    }
+    
+    main #portfolio ul #myPlants {
+        padding-right: 300px;
+    }
+}
+
+/* Quarta tela */
+@media screen and (min-width: 1400px) {
+    
+    header {
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+    
+    main #welcome {
+        padding-right: 400px;
+    }
+    
+    main #about {
+        padding-left: 400px;
+    }
+
+    .cover {
+        width: 525px;
+        height: 300px;
+    }
+    
+    main #portfolio ul #pousadaPlato, #nirvanaExperience {
+        padding-left: 400px;
+    }
+    
+    main #portfolio ul #myPlants {
+        padding-right: 400px;
+    }
+
+}
