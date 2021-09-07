@@ -22,7 +22,7 @@ header div {
 header ul {
     display: flex;
     flex-direction: row;
-    visibility: visible;
+    visibility: hidden;
     /* Temporariamente */
 }
 
