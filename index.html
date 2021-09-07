@@ -9,33 +9,34 @@
     <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/responsivity.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/first-screen.css">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/advantages.css">
     <link rel="stylesheet" href="/styles/call-to-action.css">
     <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="./styles/responsivity.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <title>DuaxTech</title>
+    <title>Duax Tech</title>
 </head>
 
 <body>
     <header>
         <div>
-            <img src="/public/images/duax-logo.png" alt="Logo Duax" width="50">
-            <span><strong>Duax Tech</strong></span>
+            <a href="/" style="text-decoration: none;">
+                <img src="/public/images/duax-logo.png" alt="Logo Duax" width="50">
+                <span><strong>Duax Tech</strong></span>
+            </a>
         </div>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contratar</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5595981164726&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Duax!"
+                    target="_blank"><button>Contratar</button></a></li>
         </ul>
     </header>
 
@@ -68,7 +69,8 @@
             <div id="about-container">
                 <div>
                     <h2>Nós</h2>
-                    <p>Somos fascinados por tecnologia e como podemos através da criação de software melhorar a qualidade das atividades de profissionais, negócios e instituições.
+                    <p>Somos fascinados por tecnologia e como podemos através da criação de software melhorar a
+                        qualidade das atividades de profissionais, negócios e instituições.
                     </p>
                 </div>
 
@@ -86,19 +88,21 @@
                     </div>
                     <div id="step2">
                         <h3>Construção validada</h3>
-                        <p>Durante toda a fase de desenvolvimento validamos as novas features para garantir a entrega do produto o mais proximo de sua visão.</p>
+                        <p>Durante toda a fase de desenvolvimento validamos as novas features para garantir a entrega do
+                            produto o mais proximo de sua visão.</p>
                     </div>
                     <div id="step3">
                         <h3>Lançamento do produto</h3>
-                        <p>Colocamos o software no ar utilizando o melhor serviço de computação em nuvem garantindo a integridade do código.</p>
+                        <p>Colocamos o software no ar utilizando o melhor serviço de computação em nuvem garantindo a
+                            integridade do código.</p>
                     </div>
                     <img src="/public/images/timeline.png" alt="timeline">
                     <div id="videos">
-                        <video id="desk" autoplay loop>
+                        <video preload="auto" id="desk" autoplay loop>
                             <source src="/public/videos/fundo-dev-original.mp4" type="video/mp4">
                             <p>Seu navegador não suporta o formato de video</p>
                         </video>
-                        <video id="clock" autoplay loop>
+                        <video id="clock" autoplay loop preload="metadata">
                             <source src="/public/videos/clock.mp4" type="video/mp4">
                             <p>Seu navegador não suporta o formato de video</p>
                         </video>
@@ -129,7 +133,8 @@
 
         <section id="call-to-action">
             <h1>Precisa de um desenvolvedor?<br> Vamos trabalhar juntos!</h1>
-            <button>Contratar</button>
+            <a href="https://api.whatsapp.com/send?phone=5595981164726&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Duax!"
+                target="_blank"><button>Contratar</button></a>
         </section>
     </main>
 
@@ -144,7 +149,7 @@
         <div>
             <img src="/public/images/instagram-white.png" alt="instagram" width="20">
             <img src="/public/images/whats-white.png" alt="whats" width="20">
-            <img src="/public/images/github-white.png" alt="github" width="20"> 
+            <img src="/public/images/github-white.png" alt="github" width="20">
         </div>
     </footer>
 </body>

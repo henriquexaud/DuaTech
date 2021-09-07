@@ -20,4 +20,5 @@ main #call-to-action button {
 main #call-to-action button:hover {
     cursor: pointer;
     background-color: #db7909;
+    transition-duration: 0.5s;
 }

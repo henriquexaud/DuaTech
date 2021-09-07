@@ -144,3 +144,45 @@
     }
 
 }
+
+/* Quinta Tela */
+@media screen and (min-width: 1480px) {
+    
+    header {
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+    
+    #welcome {
+        padding-right: 500px;
+    }
+    
+    #about #about-container {
+        padding-left: 100px;
+    }
+
+    #about #workflow-container {
+        padding-left: 100px;
+    }
+
+    #videos #clock {
+        width: 120px;
+        position: relative;
+        bottom: 420px;
+        left: 50px;
+    }
+
+    .cover {
+        width: 525px;
+        height: 300px;
+    }
+    
+    #portfolio ul #pousadaPlato, #nirvanaExperience {
+        padding-left: 450px;
+    }
+    
+    #portfolio ul #myPlants {
+        padding-right: 450px;
+    }
+
+}
