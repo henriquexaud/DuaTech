@@ -82,6 +82,10 @@
     main #portfolio ul #myPlants {
         padding-right: 200px;
     }
+
+    #gif {
+        visibility: visible;
+    }
 }
 
 /* Terceira tela */
@@ -111,6 +115,10 @@
     
     main #portfolio ul #myPlants {
         padding-right: 300px;
+    }
+
+    #gif {
+        visibility: visible;
     }
 }
 
@@ -143,6 +151,10 @@
         padding-right: 400px;
     }
 
+    #gif {
+        visibility: visible;
+    }
+
 }
 
 /* Quinta Tela */
@@ -165,13 +177,6 @@
         padding-left: 100px;
     }
 
-    #videos #clock {
-        width: 120px;
-        position: relative;
-        bottom: 420px;
-        left: 50px;
-    }
-
     .cover {
         width: 525px;
         height: 300px;
@@ -185,4 +190,7 @@
         padding-right: 450px;
     }
 
+    #gif {
+        visibility: visible;
+    }
 }
