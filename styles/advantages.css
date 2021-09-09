@@ -4,7 +4,7 @@ main #advantages {
     justify-content: center;
     align-items: center;
     background-color: #90e0ef;
-    height: 300px;
+    height: 400px;
 }
 
 main #advantages ul {
@@ -28,11 +28,11 @@ main #advantages ul li {
     box-shadow: 3px 2px 8px #313138;
     font-weight: 700;
     position: relative;
-    bottom: 120px;
+    bottom: 180px;
 }
 
 main #advantages ul li:hover {
-    bottom: 130px;
+    bottom: 190px;
     transition: 0.2s;
     box-shadow: 3px 12px 18px #313138;
 }

@@ -1,7 +1,7 @@
 
 main #call-to-action {
     background-color: #90e0ef;
-    height: 300px;
+    height: 550px;
 }
 
 main #call-to-action button {
@@ -22,4 +22,8 @@ main #call-to-action button:hover {
     cursor: pointer;
     background-color: #db7909;
     transition-duration: 0.5s;
+}
+
+#call-to-action img {
+    position: relative;
 }

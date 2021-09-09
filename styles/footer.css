@@ -11,6 +11,17 @@ footer {
 
 footer #space {
     width: 50px;
+    visibility: hidden;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FD951F;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 footer img {

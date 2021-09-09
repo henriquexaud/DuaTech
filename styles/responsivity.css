@@ -1,25 +1,77 @@
+/* Mobile */
+@media screen and (min-width: 0px) {
+
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #welcome {
+        padding-right: 20px;
+    }
+
+    #services ul {
+        width: 400px;
+    }
+
+    .cover {
+        left: 50px;
+    }
+
+    #about {
+        padding-left: 20px;
+    }
+
+    #portfolio ul #pousadaPlato, #nirvanaExperience {
+        padding-left: 20px;
+    }
+    
+    #portfolio ul #myPlants {
+        padding-right: 20px;
+    }
+    
+    #gif {
+        left: 0px;
+    }
+}
+    
+
+
 /* Tela zero */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 680px) {
 
     header {
         padding-left: 50px;
         padding-right: 50px;
     }
     
-    main #welcome {
+    #welcome {
         padding-right: 50px;
     }
+
+    #services ul {
+        width: initial;
+    }
+
+    .cover {
+        left: 200px;
+    }
     
-    main #about {
+    #about {
         padding-left: 50px;
     }
 
-    main #portfolio ul #pousadaPlato, #nirvanaExperience {
+    #portfolio ul #pousadaPlato, #nirvanaExperience {
         padding-left: 50px;
     }
     
-    main #portfolio ul #myPlants {
+    #portfolio ul #myPlants {
         padding-right: 50px;
+    }
+
+    
+    #gif {
+        left: 0px;
     }
 }
     
@@ -32,25 +84,30 @@
         padding-right: 100px;
     }
 
-    main #welcome {
+    #welcome {
         padding-right: 100px;
     }
 
-    main #about {
+    #about {
         padding-left: 100px;
     }
 
     .cover {
         width: 420px;
         height: 240px;
+        left: 200px;
     }
 
-    main #portfolio ul #pousadaPlato, #nirvanaExperience {
+    #portfolio ul #pousadaPlato, #nirvanaExperience {
         padding-left: 100px;
     }
 
-    main #portfolio ul #myPlants {
+    #portfolio ul #myPlants {
         padding-right: 100px;
+    }
+
+    #gif {
+        left: 0px;
     }
 }
 
@@ -62,29 +119,31 @@
         padding-right: 200px;
     }
     
-    main #welcome {
+    #welcome {
         padding-right: 200px;
     }
     
-    main #about {
+    #about {
         padding-left: 200px;
     }
 
     .cover {
         width: 455px;
         height: 260px;
+        left: 200px;
     }
     
-    main #portfolio ul #pousadaPlato, #nirvanaExperience {
+    #portfolio ul #pousadaPlato, #nirvanaExperience {
         padding-left: 200px;
     }
     
-    main #portfolio ul #myPlants {
+    #portfolio ul #myPlants {
         padding-right: 200px;
     }
 
     #gif {
         visibility: visible;
+        left: 530px;
     }
 }
 
@@ -96,29 +155,31 @@
         padding-right: 300px;
     }
     
-    main #welcome {
+    #welcome {
         padding-right: 300px;
     }
     
-    main #about {
+    #about {
         padding-left: 300px;
     }
 
     .cover {
         width: 490px;
         height: 280px;
+        left: 200px;
     }
     
-    main #portfolio ul #pousadaPlato, #nirvanaExperience {
+    #portfolio ul #pousadaPlato, #nirvanaExperience {
         padding-left: 300px;
     }
     
-    main #portfolio ul #myPlants {
+    #portfolio ul #myPlants {
         padding-right: 300px;
     }
 
     #gif {
         visibility: visible;
+        left: 530px;
     }
 }
 
@@ -131,7 +192,7 @@
     }
     
     #welcome {
-        padding-right: 400px;
+        padding-right: 360px;
     }
     
     #about {
@@ -141,6 +202,7 @@
     .cover {
         width: 525px;
         height: 300px;
+        left: 200px;
     }
     
     #portfolio ul #pousadaPlato, #nirvanaExperience {
@@ -153,6 +215,7 @@
 
     #gif {
         visibility: visible;
+        left: 530px;
     }
 
 }
@@ -166,20 +229,17 @@
     }
     
     #welcome {
-        padding-right: 500px;
+        padding-right: 380px;
     }
     
-    #about #about-container {
-        padding-left: 100px;
-    }
-
-    #about #workflow-container {
-        padding-left: 100px;
+    #about {
+        padding-left: 380px;
     }
 
     .cover {
         width: 525px;
         height: 300px;
+        left: 200px;
     }
     
     #portfolio ul #pousadaPlato, #nirvanaExperience {
@@ -192,5 +252,6 @@
 
     #gif {
         visibility: visible;
+        left: 530px;
     }
 }
