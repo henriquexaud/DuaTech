@@ -25,16 +25,15 @@ main #advantages ul li {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 8px;
-    box-shadow: 3px 2px 8px #313138;
+    border: 5px solid #ade8f4; 
     font-weight: 700;
     position: relative;
-    bottom: 180px;
+    bottom: 160px;
 }
 
 main #advantages ul li:hover {
-    bottom: 190px;
-    transition: 0.2s;
-    box-shadow: 3px 12px 18px #313138;
+    transition: 0.8s;
+    border: 5px solid #023E8A;
 }
 
 main #advantages ul li img {

@@ -1,26 +1,43 @@
-
-main #call-to-action {
+#call-to-action {
     background-color: #90e0ef;
-    height: 550px;
+    height: 520px;
 }
 
-main #call-to-action button {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+#call-to-action button {
+    width: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-top: 40px;
-    border-radius: 4px;
+    border-radius: 12px;
     border-style: none;
     background-color: #FD951F;
-    color: aliceblue;
-    font-weight: 600;
-    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-main #call-to-action button:hover {
+#call-to-action button img {
+    width: 22px;
+}
+
+#call-to-action #content-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#call-to-action button p {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-left: 8px;
+}
+
+#call-to-action button:hover {
     cursor: pointer;
-    background-color: #db7909;
+    background-color: #018613;
     transition-duration: 0.5s;
 }
 
