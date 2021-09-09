@@ -23,6 +23,12 @@ footer a:hover {
     cursor: pointer;
 }
 
+#copy-right:hover {
+    cursor: default;
+    color: #FD951F;
+    transition-duration: 0.5s;
+}
+
 footer img {
     position: relative;
     top: 3px;
