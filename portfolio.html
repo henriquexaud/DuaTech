@@ -6,16 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/styles/global.css">
-    <!-- <link rel="stylesheet" href="/styles/portfolio.css"> -->
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="/styles/portfolio.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="./styles/responsivity.css">
+
 
 
     <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
     <title>Portfólio</title>
 </head>
 <body>
-    <h1>Portfólio</h1>
+
+    <header>
+        <div>
+            <a href="/" style="text-decoration: none;">
+                <img src="/public/images/duax-logo.png" alt="Logo Duax" width="50">
+                <span><strong>DuaTech</strong></span>
+            </a>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/portfolio.html">Portfólio</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5595981164726&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Duax!"
+                    target="_blank"><button>Contratar</button></a></li>
+        </ul>
+    </header>
+
     <section id="portfolio">
-            <h2>Portfólio</h2>
             <ul>
                 <li id="pousadaPlato">
                     <h3>Pousada Platô</h3>
@@ -30,12 +48,28 @@
                         nobis sunt nemo, sequi explicabo.</p>
                 </li>
                 <li id="nirvanaExperience">
-                    <h3>Nirvana Experience</h3>
+                    <h3>Tabacaria Nirvana</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore incidunt perferendis hic quam
                         quis eos aliquam, iusto nostrum soluta temporibus voluptatem rerum ab tenetur quasi in labore
                         impedit recusandae optio!</p>
                 </li>
             </ul>
         </section>
+
+        <footer>
+            <div class="space">
+                <p><a href="/">&larr; Home</a></p>
+            </div>
+    
+            <div>
+                <p id="copy-right">&copy; 2021 por DuaTech</p>
+            </div>
+    
+            <div id="end" class="space">
+                <a href="#">
+                    <img src="/public/images/instagram-white.png" alt="instagram" width="20">
+                </a>
+            </div>
+        </footer>
 </body>
 </html>
