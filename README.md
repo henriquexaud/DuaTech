@@ -1,3 +1,3 @@
-# Duax Tech Site
+# DuaTech Site
 
 Link: henriquexaud.github.io
