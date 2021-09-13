@@ -34,6 +34,7 @@ main #advantages ul li {
 main #advantages ul li:hover {
     transition: 0.8s;
     border: 5px solid #023E8A;
+    cursor: default;
 }
 
 main #advantages ul li img {

@@ -55,6 +55,7 @@ main #services ul li:hover {
     bottom: 55px;
     transition: 0.2s;
     box-shadow: 3px 10px 18px #313138;
+    cursor: default;
 }
 
 main #services ul li img {

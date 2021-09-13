@@ -10,7 +10,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 40px;
-    border-radius: 12px;
+    border-radius: 8px;
     border-style: none;
     background-color: #FD951F;
     justify-content: center;
@@ -43,4 +43,5 @@
 
 #call-to-action img {
     position: relative;
+    width: 220px;
 }
