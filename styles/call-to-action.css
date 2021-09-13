@@ -1,6 +1,6 @@
 #call-to-action {
     background-color: #90e0ef;
-    height: 520px;
+    height: 500px;
 }
 
 #call-to-action button {
@@ -43,5 +43,5 @@
 
 #call-to-action img {
     position: relative;
-    width: 220px;
+    width: 240px;
 }
