@@ -50,7 +50,7 @@ header button {
     padding: 6px 12px;
     border-radius: 6px;
     border: 0px;
-    background-color: #FD951F;
+    background-color: #0077B6;
     color: floralwhite;
     text-decoration: none;
     font-weight: 600;
@@ -60,7 +60,7 @@ header button {
 
 header button:hover{
     cursor: pointer;
-    background-color: #db7909;
+    background-color: #03045E;
     color: #fff;
     transition-duration: 0.5s;
 }
